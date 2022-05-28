@@ -1,0 +1,1797 @@
+@font-face {
+    font-family: "RobotoSlab";
+    src: url(/font/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+span{
+    color:#06f325;
+}
+.fa-circle-notch {
+    color:#06f325;
+    text-decoration: transparent;
+}
+a:link{
+    text-decoration: none;
+    color:white
+}
+a:visited{
+    color:white;
+}
+
+@media (min-width: 576px){
+    .CodebySam{
+        color: white;
+        font-size: 15px;
+        font-family: RobotoSlab;
+        margin-left:85px;
+    }
+    .black-container{
+        background-image: url(../images/Matrixcode.gif);
+        background-size: contain;
+        width:220px;
+        height:220px;
+        border: 2px solid #561f7a67;
+        margin-left:20px;
+        margin-top: -120px;
+        border-radius: 60px;
+    }
+    .name{
+        font-size: 20px;
+        font-family: RobotoSlab;
+        margin-top: 110px;
+        margin-left: 55px;
+        color: rgba(255, 255, 255, 0.973);
+    }
+    .surname{
+        font-size: 20px;
+        font-family: RobotoSlab;
+        margin-top: -15px;
+        margin-left: 75px;
+        color: rgba(255, 255, 255, 0.973)
+    }
+    .full-stack-developer {
+        font-size: 17px;
+        font-family: RobotoSlab;
+        margin-left:35px;
+        margin-top: -10px;
+        color: rgba(255, 255, 255, 0.973);
+    }
+    .icon-cv{
+        width:22px;
+        height: 22px;
+        margin-left:520px;
+        margin-top:-270px;
+    }
+    .icon-instagram{
+        width:22px;
+        height: 22px;
+        margin-left:520px;
+        margin-top:-250px;
+    }
+    .icon-in{
+        width:22px;
+        height: 22px;
+        margin-left:520px;
+        margin-top:-230px;
+    }
+    .container-fluid-1{
+        width: 576px;
+        background-size: 100%;
+        background-image: url(../images/The-Lighthouse.jpg);
+        height:260px;
+    }
+    .container-fluid-2{
+        width: 576px;
+        background-color: black;
+        height: 700px;
+    }
+    .container-fluid-3{
+        width:576px;
+        background-color: black;
+        height: 30px;
+    }
+    .Aboutme-1{
+        font-size: 22px;
+        color: white;
+        margin-left: 215px;
+        font-family: RobotoSlab;
+    }
+    .aboutmeimage-1{
+        width: 150px;
+        height: 300px;
+        margin-left: 90px;
+    }
+    .button{
+        display:inline-block;
+        position:absolute;
+        top:950px;
+        right: 115px;
+        padding:0.5em 1.7em;
+        border:0.25em solid #f83737ce;
+        margin:0.1em 0.2em;
+        border-radius:0.35em;
+        box-sizing: border-box;
+        font-family: RobotoSlab;
+        font-size:14px;
+        font-weight: bold;
+        font-weight:500;
+        text-align:center;
+        transition: 0.2s;
+        background:transparent;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+    .button2{
+        display: inline-block;
+        position: absolute;
+        top:950px;
+        right: 340px;
+        padding:0.5em 1.7em;
+        border:0.25em solid #385fccbb;
+        margin:0.1em 0.2em;
+        border-radius:0.35em;
+        box-sizing: border-box;
+        font-family: RobotoSlab;
+        font-size:14px;
+        font-weight: bold;
+        font-weight:500;
+        text-align:center;
+        transition: 0.2s;
+        background:transparent;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+  .button:hover, .button2:hover{
+    border:0.25em solid #53ff03;
+    background-color:rgb(0, 0, 0);
+  }
+  .button:active, .button:focus, .button:link, .button:visited{
+      background-color:red;
+  }
+ .button2:visited, .button2:active, .button2:focus, .button2:link{
+    background-color:#1c03ff;
+  }   
+    .container-fluid-4{
+        width: 576px;
+        height: 2200px;
+        background-color: black;
+    }
+    .Aboutme {
+        font-size:20px;
+        font-family: RobotoSlab;
+        color: white;
+        margin-left:210px;
+    }
+    .aboutmecontent {
+        font-size: 15px;
+        font-family: RobotoSlab;
+        color: white;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .rockets{
+        height:22px;
+        width:22px;
+    }
+    .passion{
+        font-size: 20px;
+        color: white;
+        margin-left: 210px;
+        margin-top: -60px;
+        font-family: RobotoSlab;
+    }
+    .hr-1{
+        color: rgb(4, 214, 252);
+        margin-left: 170px;
+        margin-right:200px;
+    }
+    .icon-2{
+        margin-left: 150px;
+        margin-top:-20px;
+        width: 65px;
+        height: 75px;
+    }
+    .icon-3{
+        margin-left: 110px;
+        margin-top:-15px;
+        width: 60px;
+        height: 60px;
+    }
+    .writing{
+        font-size:20px;
+        font-family: RobotoSlab;
+        color: white;
+        margin-left: 30px;
+        margin-top:180px;
+    }
+    .hr-2{
+        color: rgb(255, 52, 86);
+        margin-left: 30px;
+        margin-right:30px;
+    }
+    .Entropia{
+        width:150px;
+        height:200px;
+        margin-top:30px;
+        margin-left: 30px;
+    }
+    h5{
+        font-size: 15px;;
+        margin-top:-150px;
+        margin-left:200px;
+        font-family: RobotoSlab;
+        color: rgba(43, 226, 141, 0.733);
+    }
+    .caption1{
+        font-family: RobotoSlab;
+        font-size:13px;
+        color: white;
+        margin-left: 200px;
+    }
+    .Angeliperduti{
+        width:150px;
+        height:200px;
+        margin-top:110px;
+        margin-left: 390px;
+    }
+    .title2{
+        font-size: 15px;
+        font-family: RobotoSlab;
+        margin-left:20px;
+        margin-top:-160px;
+        color: rgb(255, 52, 86);
+    }
+    .caption2{
+        font-family: RobotoSlab;
+        font-size:13px;
+        color: white;
+        margin-left: 20px; 
+        margin-top:-5px;
+    }
+    .cinema{
+        font-size:20px;
+        font-family: RobotoSlab;
+        color: white;
+        margin-left: 30px;
+        margin-top: 240px;
+    }
+    .hr-3{
+        color:rgba(43, 226, 141, 0.733);
+        margin-left: 30px;
+        margin-right:30px
+    }
+    .caption3{
+        font-size: 15px;;
+        margin-top:-180px;
+        margin-left:230px;
+        font-family: RobotoSlab;
+        color:white
+    }
+    .hr-4{
+        margin-left:220px;
+        margin-right:80px;
+        color:rgb(255, 52, 86) ;
+    }
+    .thin-red-line{
+        font-size:15px;
+        font-family: RobotoSlab;
+        color:rgb(255, 52, 86) ;
+        margin-left:380px;
+        margin-top:-10px;
+    }
+    .caption4{
+        font-size: 16px;;
+        margin-top:-170px;
+        margin-left:30px;
+        margin-right: 200px;
+        font-family: RobotoSlab;
+        color:white
+    }
+    .Fellini{
+        font-size: 15px;;
+        margin-top:-10px;
+        margin-left:270px;
+        font-family: RobotoSlab;
+        color:rgba(43, 226, 141, 0.733)
+    }
+    .footer{
+        width:576px;
+        height:200px;
+        background-color: black;
+    }
+    .icon-cv-3{
+        height:45px;
+        width:45px;
+        margin-left:155px;
+        margin-top:-380px;
+    }
+    .icon-instagram-3{
+        height:45px;
+        width:45px;
+        margin-left:50px;
+        margin-top:-380px;
+    }
+    .icon-linkedin-3{
+        height:45px;
+        width:45px;
+        margin-left:50px;
+        margin-top:-380px;
+    }
+    .container-fluid-5 {
+        width: 576px;
+        height:1100px;
+        background-color: black;
+    }
+    .Skills {
+        font-size: 20px;
+        font-family: RobotoSlab;
+        color: white;
+        margin-left:160px;
+    }
+    .icon-cv-2{
+        height:40px;
+        width:40px;
+        margin-left:160px;
+        margin-top:30px;
+    }
+    .icon-instagram-2{
+        height:40px;
+        width:40px;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    .icon-linkedin-2{
+        height:40px;
+        width:40px;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    .contact{
+        font-family: RobotoSlab;
+        font-size: 20px;
+        color:white;
+        margin-left:230px;
+        margin-top:70px;
+    }
+    .hr-5{
+        color:rgb(253, 29, 66);
+        margin-left: 150px;
+        margin-right:150px;
+        margin-top:10px;
+    }
+    form{
+        margin-left:180px;
+        margin-top:30px;
+        height:360px;
+    }
+    input{
+        width:180px;
+        height:60px;
+        border: 2px solid rgba(162, 0, 255, 0.76);
+        border-radius:20px;
+    }
+    button{
+        width:55px;
+        height:30px;
+        border: 1px solid rgba(162, 0, 255, 0.76);
+    }
+    .background{
+        width:576px;
+        height:260px;
+    }
+    .outro{
+        font-size: 15px;
+        font-family: RobotoSlab;
+        color: white;
+        margin-left: 30px;
+    }
+    .container-fluid-6{
+        width:576px;
+        height:2400px;
+        background-color: black;
+    }
+    .container-cv{
+        width:604px;
+        height:255px;
+        background-color: rgba(155, 5, 255, 0.288);
+        margin-top:-310px;
+        margin-left:-110px;
+        border-radius: 150px;
+        border:2px solid white
+    }
+    .photo-cv{
+        width:230px;
+        height:320px;
+        margin-left:260px;
+        margin-top:30px;
+    }
+    h4{
+        font-size:22px;
+        font-family: RobotoSlab;
+        color: rgb(56, 197, 131);
+        margin-left:100px;
+        margin-top: 100px;
+    }
+    .hr-cv{
+        color:rgb(253, 29, 66);
+        margin-left:80px;
+        margin-right:80px;
+    }
+    .info-cv{
+        font-size:16px;
+        font-family: RobotoSlab;
+        color: white;
+        margin-left:100px;
+        margin-right:100px;
+        margin-top:20px;
+    }
+    .footer-cv{
+        width:66px;
+        height:66px;
+        margin-top:120px;
+        margin-left:246px;
+    }
+}
+
+@media (min-width: 768px) {
+    .CodebySam{
+        font-size: 18px;
+        margin-left:100px;
+    }
+    .black-container{
+        width:260px;
+        height:260px;
+        border: 2px solid #561f7a67;
+        margin-left:20px;
+        margin-top: -120px;
+        border-radius: 60px;
+    }
+    .name{
+        font-size: 25px;
+        margin-top: 115px;
+        margin-left: 65px;
+    }
+    .surname{
+        font-size: 25px;
+        margin-top: -15px;
+        margin-left: 95px;
+    }
+    .full-stack-developer {
+        font-size: 18px;
+        margin-left:45px;
+    }
+    .icon-cv{
+        width:27px;
+        height: 27px;
+        margin-left:700px;
+        margin-top:-310px;
+    }
+    .icon-instagram{
+        width:27px;
+        height: 27px;
+        margin-left:700px;
+        margin-top:-260px;
+    }
+    .icon-in{
+        width:27px;
+        height: 27px;
+        margin-left:700px;
+        margin-top:-210px;
+    }
+    .container-fluid-1{
+        width: 768px;
+        height:340px;
+    }
+    .container-fluid-2{
+        width: 768px;
+        height: 700px;
+    }
+    .container-fluid-3{
+        width:768px;
+        height: 80px;
+    }
+    .Aboutme-1{
+        font-size: 22px;
+        margin-left: 300px;
+    }
+    .aboutmeimage-1{
+        width: 130px;
+        height: 280px;
+        margin-left: 180px;
+    }
+    .button{
+        display:inline-block;
+        position:absolute;
+        top:1050px;
+        right: 140px;
+        padding:0.5em 1.7em;
+        border:0.25em solid #f83737ce;
+        margin:0.1em 0.2em;
+        border-radius:0.35em;
+        box-sizing: border-box;
+        font-size:16px;
+        font-weight: bold;
+        font-weight:500;
+        text-align:center;
+        transition: 0.2s;
+        background:transparent;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+    .button2{
+        display: inline-block;
+        position: absolute;
+        top:1050px;
+        right: 490px;
+        padding:0.5em 1.7em;
+        border:0.25em solid #385fccbb;
+        margin:0.1em 0.2em;
+        border-radius:0.35em;
+        box-sizing: border-box;
+        font-size:16px;
+        font-weight: bold;
+        font-weight:500;
+        text-align:center;
+        transition: 0.2s;
+        background:transparent;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+    .container-fluid-4{
+        width:768px;
+        height: 2600px;
+    }
+    .Aboutme {
+        font-size:25px;
+        margin-left: 270px;
+    }
+    .aboutmecontent {
+        font-size: 18px;
+        margin-left: 110px;
+    }
+    .rockets{
+        height:30px;
+        width:30px;
+    }
+    .passion{
+        font-size: 25px;
+        margin-left: 280px;
+        margin-top: -60px;
+    }
+    .hr-1{
+        margin-left: 230px;
+        margin-right:290px;
+    }
+    .icon-2{
+        margin-left: 240px;
+        margin-top:-20px;
+        width: 65px;
+        height: 65px;
+    }
+    .icon-3{
+        margin-left: 100px;
+        margin-top:-15px;
+        width: 60px;
+        height: 60px;
+    }
+    .writing{
+        font-size:25px;
+        margin-left: 50px;
+        margin-top:180px;
+    }
+    .hr-2{
+        margin-left: 50px;
+        margin-right:50px;
+    }
+    .Entropia{
+        width:200px;
+        height:270px;
+        margin-top:30px;
+        margin-left: 50px;
+    }
+    h5{
+        font-size: 17px;;
+        margin-top:-220px;
+        margin-left:290px;
+    }
+    .caption1{
+        font-size:16px;
+        margin-left: 290px;
+    }
+    .Angeliperduti{
+        width:200px;
+        height:270px;
+        margin-top:200px;
+        margin-left: 520px;
+    }
+    .title2{
+        font-size: 17px;
+        margin-left:50px;
+        margin-top:-220px;
+    }
+    .caption2{
+        font-size:16px;
+        margin-left: 50px; 
+        margin-top:-5px;
+    }
+    .cinema{
+        font-size:25px;
+        margin-left: 50px;
+        margin-top: 240px;
+    }
+    .hr-3{
+        margin-left: 50px;
+        margin-right:50px
+    }
+    .caption3{
+        font-size: 20px;;
+        margin-top:-250px;
+        margin-left:330px;
+    }
+    .hr-4{
+        margin-left:320px;
+        margin-right:80px;
+    }
+    .thin-red-line{
+        font-size:16px;
+        margin-left:570px;
+        margin-top:-10px;
+    }
+    .caption4{
+        font-size: 16px;;
+        margin-top:-170px;
+        margin-left:50px;
+    }
+    .Fellini{
+        font-size: 17px;;
+        margin-top:-10px;
+        margin-left:400px;
+    }
+    .footer{
+        width:768px;
+        height:200px;
+    }
+    .icon-cv-3{
+        height:55px;
+        width:55px;
+        margin-left:235px;
+        margin-top:-380px;
+    }
+    .icon-instagram-3{
+        height:55px;
+        width:55px;
+        margin-left:50px;
+        margin-top:-380px;
+    }
+    .icon-linkedin-3{
+        height:55px;
+        width:55px;
+        margin-left:50px;
+        margin-top:-380px;
+    }
+    .container-fluid-5 {
+        width: 768px;
+        height:1200px;
+    }
+    .Skills {
+        font-size: 22px;
+        margin-left:240px;
+    }
+    .icon-cv-2{
+        height:50px;
+        width:50px;
+        margin-left:235px;
+        margin-top:30px;
+    }
+    .icon-instagram-2{
+        height:50px;
+        width:50px;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    .icon-linkedin-2{
+        height:50px;
+        width:50px;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    .contact{
+        font-size: 25px;
+        margin-left:310px;
+        margin-top:70px;
+    }
+    .hr-5{
+        margin-left: 250px;
+        margin-right:250px;
+        margin-top:10px;
+    }
+    form{
+        margin-left:275px;
+        margin-top:30px;
+        height:360px;
+    }
+    input{
+        width:200px;
+        height:80px;
+        border: 2px solid rgba(162, 0, 255, 0.76);
+        border-radius:20px;
+    }
+    button{
+        width:70px;
+        height:35px;
+        border: 1px solid rgba(162, 0, 255, 0.76);
+    }
+    .background{
+        width:760px;
+        height:350px;
+    }
+    .outro{
+        font-size: 15px;
+        margin-left:100px;
+        margin-top:-20px;
+    }
+    .container-fluid-6{
+        width:768px;
+        height:2500px;
+    }
+    .container-cv{
+        width:604px;
+        height:255px;
+        margin-top:-310px;
+        margin-left:-110px;
+        border-radius: 150px;
+        border:2px solid white
+    }
+    .photo-cv{
+        width:230px;
+        height:320px;
+        margin-left:260px;
+        margin-top:30px;
+    }
+    h4{
+        font-size:23px;
+        margin-left:100px;
+        margin-top: 100px;
+    }
+    .hr-cv{
+        margin-left:60px;
+        margin-right:60px;
+    }
+    .info-cv{
+        font-size:17px;
+        margin-left:100px;
+        margin-right:100px;
+        margin-top:20px;
+    }
+    .footer-cv{
+        width:86px;
+        height:86px;
+        margin-top:240px;
+        margin-left:346px;
+    }
+}
+
+@media (min-width: 992px) {
+    .CodebySam{
+        font-size: 20px;
+        margin-left:105px;
+    }
+    .black-container{
+        width:290px;
+        height:290px;
+        border: 2px solid #561f7a67;
+        margin-left:20px;
+        margin-top: -120px;
+        border-radius: 65px;
+    }
+    .name{
+        font-size: 30px;
+        margin-top: 130px;
+        margin-left: 65px;
+    }
+    .surname{
+        font-size: 30px;
+        margin-top: -15px;
+        margin-left: 90px;
+    }
+    .full-stack-developer {
+        font-size: 20px;
+        margin-left:45px;
+    }
+    .icon-cv{
+        width:30px;
+        height: 30px;
+        margin-left:900px;
+        margin-top:-380px;
+    }
+    .icon-instagram{
+        width:30px;
+        height: 30px;
+        margin-left:900px;
+        margin-top:-330px;
+    }
+    .icon-in{
+        width:30px;
+        height: 30px;
+        margin-left:900px;
+        margin-top:-280px;
+    }
+    .container-fluid-1{
+        width: 992px;
+        height:440px;
+    }
+    .container-fluid-2{
+        width: 992px;
+        height: 750px;
+    }
+    .container-fluid-3{
+        width:992px;
+        height: 100px;
+    }
+    .Aboutme-1{
+        font-size: 25px;
+        margin-left: 400px;
+    }
+    .aboutmeimage-1{
+        width: 150px;
+        height: 300px;
+        margin-left: 290px;
+    }
+    .button{
+        display:inline-block;
+        position:absolute;
+        top:1150px;
+        right: 230px;
+        padding:0.5em 1.7em;
+        border:0.25em solid #f83737ce;
+        margin:0.1em 0.2em;
+        border-radius:0.35em;
+        box-sizing: border-box;
+        font-size:18px;
+        font-weight: bold;
+        font-weight:500;
+        text-align:center;
+        transition: 0.2s;
+        background:transparent;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+    .button2{
+        display: inline-block;
+        position: absolute;
+        top:1150px;
+        right: 600px;
+        padding:0.5em 1.7em;
+        border:0.25em solid #385fccbb;
+        margin:0.1em 0.2em;
+        border-radius:0.35em;
+        box-sizing: border-box;
+        font-size:18px;
+        font-weight: bold;
+        font-weight:500;
+        text-align:center;
+        transition: 0.2s;
+        background:transparent;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+    .container-fluid-4{
+        width:992px;
+        height: 3300px;
+    }
+    .Aboutme {
+        font-size:25px;
+        margin-left: 400px;
+    }
+    .aboutmecontent {
+        font-size: 18px;
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+    .rockets{
+        height:32px;
+        width:32px;
+    }
+    .passion{
+        font-size: 25px;
+        margin-left: 400px;
+        margin-top: -60px;
+    }
+    .hr-1{
+        margin-left: 300px;
+        margin-right:300px;
+    }
+    .icon-2{
+        margin-left: 340px;
+        margin-top:-20px;
+        width: 80px;
+        height: 80px;
+    }
+    .icon-3{
+        margin-left: 540px;
+        margin-top:-110px;
+        width: 75px;
+        height: 75px;
+    }
+    .writing{
+        font-size:30px;
+        margin-left: 110px;
+        margin-top:180px;
+    }
+    .hr-2{
+        margin-left: 50px;
+        margin-right:50px;
+    }
+    .Entropia{
+        width:260px;
+        height:340px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    h5{
+        font-size: 19px;;
+        margin-top:-270px;
+        margin-left:400px;
+    }
+    .caption1{
+        font-size:17px;
+        margin-left: 400px;
+    }
+    .Angeliperduti{
+        width:260px;
+        height:340px;
+        margin-top:280px;
+        margin-left: 610px;
+    }
+    .title2{
+        font-size: 19px;
+        margin-left:60px;
+        margin-top:-270px;
+    }
+    .caption2{
+        font-size:17px;
+        margin-left: 60px; 
+        margin-top:-10px;
+    }
+    .cinema{
+        font-size:30px;
+        margin-left: 110px;
+        margin-top: 340px;
+    }
+    .hr-3{
+        margin-left: 50px;
+        margin-right:50px
+    }
+    .caption3{
+        font-size: 20px;;
+        margin-top:-270px;
+        margin-left:430px;
+    }
+    .hr-4{
+        margin-left:420px;
+        margin-right:180px;
+    }
+    .thin-red-line{
+        font-size:16px;
+        margin-left:675px;
+        margin-top:-10px;
+    }
+    .caption4{
+        font-size: 18px;;
+        margin-top:-270px;
+        margin-left:60px;
+    }
+    .Fellini{
+        font-size: 17px;;
+        margin-top:-10px;
+        margin-left:480px;
+    }
+    .footer{
+        width:992px;
+        height:200px;
+    }
+    .icon-cv-3{
+        height:65px;
+        width:65px;
+        margin-left:335px;
+        margin-top:-380px;
+    }
+    .icon-instagram-3{
+        height:65px;
+        width:65px;
+        margin-left:50px;
+        margin-top:-380px;
+    }
+    .icon-linkedin-3{
+        height:65px;
+        width:65px;
+        margin-left:50px;
+        margin-top:-380px;
+    }
+    .container-fluid-5 {
+        width: 992px;
+        height:870px;
+    }
+    .Skills {
+        font-size: 25px;
+        margin-left:340px;
+    }
+    .icon-cv-2{
+        height:65px;
+        width:65px;
+        margin-left:335px;
+        margin-top:30px;
+    }
+    .icon-instagram-2{
+        height:65px;
+        width:65px;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    .icon-linkedin-2{
+        height:65px;
+        width:65px;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    .contact{
+        font-size: 25px;
+        margin-left:430px;
+        margin-top:70px;
+    }
+    .hr-5{
+        margin-left: 300px;
+        margin-right:300px;
+        margin-top:10px;
+    }
+    form{
+        margin-left:395px;
+        margin-top:30px;
+        height:360px;
+    }
+    input{
+        width:200px;
+        height:80px;
+        border: 2px solid rgba(162, 0, 255, 0.76);
+        border-radius:20px;
+    }
+    button{
+        width:70px;
+        height:35px;
+        border: 1px solid rgba(162, 0, 255, 0.76);
+    }
+    .background{
+        width:992px;
+        height:410px;
+        margin-top:-20px;
+    }
+    .outro{
+        font-size: 16px;
+        margin-left:220px;
+        margin-top:-70px;
+    }
+    .container-fluid-6{
+        width:992px;
+        height:2500px;
+    }
+    .container-cv{
+        width:745px;
+        height:255px;
+        margin-top:-310px;
+        margin-left:-110px;
+        border-radius: 150px;
+        border:2px solid white;
+    }
+    .photo-cv{
+        width:230px;
+        height:320px;
+        margin-left:400px;
+        margin-top:30px;
+    }
+    h4{
+        font-size:25px;
+        margin-left:100px;
+        margin-top: 100px;
+    }
+    .hr-cv{
+        margin-left:60px;
+        margin-right:60px;
+    }
+    .info-cv{
+        font-size:19px;
+        margin-left:100px;
+        margin-right:100px;
+        margin-top:20px;
+    }
+    .footer-cv{
+        width:86px;
+        height:86px;
+        margin-top:240px;
+        margin-left:446px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .CodebySam{
+        font-size: 22px;
+        margin-left:110px;
+    }
+    .black-container{
+        width:320px;
+        height:320px;
+        border: 2px solid #561f7a67;
+        margin-left:20px;
+        margin-top: -120px;
+        border-radius: 60px;
+    }
+    .name{
+        font-size: 38px;
+        font-family: RobotoSlab;
+        margin-top: 130px;
+        margin-left: 60px;
+    }
+    .surname{
+        font-size: 38px;
+        margin-top: -15px;
+        margin-left: 95px;
+    }
+    .full-stack-developer {
+        font-size: 23px;
+        margin-left:45px;
+    }
+    .icon-cv{
+        width:37px;
+        height: 37px;
+        margin-left:1250px;
+        margin-top:-420px;
+    }
+    .icon-instagram{
+        width:37px;
+        height: 37px;
+        margin-left:1250px;
+        margin-top:-350px;
+    }
+    .icon-in{
+        width:37px;
+        height: 37px;
+        margin-left:1250px;
+        margin-top:-280px;
+    }
+    .container-fluid-1{
+        width: 1348px;
+        height:600px;
+    }
+    .container-fluid-2{
+        width: 1348px;
+        height: 750px;
+    }
+    .container-fluid-3{
+        width:1348px;
+        height: 70px;
+    }
+    .Aboutme-1{
+        font-size: 30px;
+        margin-left: 550px;
+    }
+    .aboutmeimage-1{
+        width: 150px;
+        height: 300px;
+        margin-left: 465px;
+    }
+    .button{
+        display:inline-block;
+        position:absolute;
+        top:1300px;
+        right: 430px;
+        padding:0.5em 1.7em;
+        border:0.25em solid #f83737ce;
+        margin:0.1em 0.2em;
+        border-radius:0.35em;
+        box-sizing: border-box;
+        font-size:18px;
+        font-weight: bold;
+        font-weight:500;
+        text-align:center;
+        transition: 0.2s;
+        background:transparent;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+    .button2{
+        display: inline-block;
+        position: absolute;
+        top:1300px;
+        right: 780px;
+        padding:0.5em 1.7em;
+        border:0.25em solid #385fccbb;
+        margin:0.1em 0.2em;
+        border-radius:0.35em;
+        box-sizing: border-box;
+        font-size:18px;
+        font-weight: bold;
+        font-weight:500;
+        text-align:center;
+        transition: 0.2s;
+        background:transparent;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+    .container-fluid-4{
+        width: 1348px;
+        height: 3500px;
+    }
+    .Aboutme {
+        font-size:40px;
+        margin-left: 550px;
+    }
+    .aboutmecontent {
+        font-size: 20px;
+        margin-left: 400px;
+        margin-right: 300px;
+    }
+    .rockets{
+        height:40px;
+        width:40px;
+    }
+    .passion{
+        font-size: 25px;
+        margin-left: 580px;
+        margin-top: -60px;
+    }
+    .hr-1{
+        margin-left: 500px;
+        margin-right:500px;
+    }
+    .icon-2{
+        margin-left: 520px;
+        margin-top:-20px;
+        width: 80px;
+        height: 80px;
+    }
+    .icon-3{
+        margin-left: 140px;
+        margin-top:-20px;
+        width: 75px;
+        height: 75px;
+    }
+    .writing{
+        font-size:30px;
+        margin-left: 110px;
+        margin-top:180px;
+    }
+    .hr-2{
+        margin-left: 50px;
+        margin-right:50px;
+    }
+    .Entropia{
+        width:360px;
+        height:460px;
+        margin-top:30px;
+        margin-left: 110px;
+    }
+    h5{
+        font-size: 20px;;
+        margin-top:-350px;
+        margin-left:600px;
+    }
+    .caption1{
+        font-size:19px;
+        margin-left: 600px;
+    }
+    .Angeliperduti{
+        width:360px;
+        height:460px;
+        margin-top:380px;
+        margin-left: 810px;
+    }
+    .title2{
+        font-size: 20px;
+        margin-left:110px;
+        margin-top:-350px;
+    }
+    .caption2{
+        font-size:19px;
+        margin-left: 110px; 
+        margin-top:-10px;
+    }
+    .cinema{
+        font-size:30px;
+        margin-left: 110px;
+        margin-top: 340px;
+    }
+    .hr-3{
+        margin-left: 50px;
+        margin-right:50px
+    }
+    .caption3{
+        font-size: 22px;;
+        margin-top:-350px;
+        margin-left:600px;
+    }
+    .hr-4{
+        margin-left:600px;
+        margin-right:350px;
+    }
+    .thin-red-line{
+        font-size:16px;
+        margin-left:875px;
+        margin-top:-10px;
+    }
+    .caption4{
+        font-size: 22px;;
+        margin-top:-350px;
+        margin-left:110px;
+    }
+    .Fellini{
+        font-size: 17px;;
+        margin-top:-10px;
+        margin-left:650px;
+    }
+    .footer{
+        width:1348px;
+        height:400px;
+    }
+    .icon-cv-3{
+        height:75px;
+        width:75px;
+        margin-left:465px;
+        margin-top:-20px;
+    }
+    .icon-instagram-3{
+        height:75px;
+        width:75px;
+        margin-left:50px;
+        margin-top:-20px;
+    }
+    .icon-linkedin-3{
+        height:75px;
+        width:75px;
+        margin-left:50px;
+        margin-top:-20px;
+    }
+    .container-fluid-5 {
+        width: 1348px;
+        height:870px;
+    }
+    .Skills {
+        font-size: 35px;
+        margin-left:450px;
+    }
+    .icon-cv-2{
+        height:75px;
+        width:75px;
+        margin-left:480px;
+        margin-top:30px;
+    }
+    .icon-instagram-2{
+        height:75px;
+        width:75px;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    .icon-linkedin-2{
+        height:75px;
+        width:75px;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    .contact{
+        font-size: 26px;
+        margin-left:590px;
+        margin-top:70px;
+    }
+    .hr-5{
+        margin-left: 500px;
+        margin-right:500px;
+        margin-top:10px;
+    }
+    form{
+        margin-left:550px;
+        margin-top:30px;
+        height:360px;
+    }
+    input{
+        width:200px;
+        height:80px;
+        border: 2px solid rgba(162, 0, 255, 0.76);
+        border-radius:20px;
+    }
+    button{
+        width:70px;
+        height:35px;
+        border: 1px solid rgba(162, 0, 255, 0.76);
+    }
+    .background{
+        width:1348px;
+        height:600px;
+    }
+    .outro{
+        font-size: 20px;
+        margin-left:290px;
+        margin-top:-100px;
+    }
+    .container-fluid-6{
+        width:1348px;
+        height:2700px;
+    }
+    .container-cv{
+        width:955px;
+        height:328px;
+        margin-top:-403px;
+        margin-left:-153px;
+        border-radius: 150px;
+        border:2px solid white
+    }
+    .photo-cv{
+        width:300px;
+        height:420px;
+        margin-left:500px;
+        margin-top:30px;
+    }
+    h4{
+        font-size:30px;
+        margin-left:100px;
+        margin-top: 100px;
+    }
+    .hr-cv{
+        margin-left:60px;
+        margin-right:60px;
+    }
+    .info-cv{
+        font-size:21px;
+        margin-left:100px;
+        margin-right:100px;
+        margin-top:20px;
+    }
+    .footer-cv{
+        width:96px;
+        height:96px;
+        margin-top:240px;
+        margin-left:600px;
+    }
+} 
+
+@media (min-width: 1400px) {
+    .CodebySam{
+        font-size: 24px;
+        margin-left:120px;
+    }
+    .black-container{
+        width:350px;
+        height:350px;
+        border: 2px solid #9f34e68e;
+        margin-left:20px;
+        margin-top: -120px;
+        border-radius: 65px;
+    }
+    .name{
+        font-size: 42px;
+        margin-top: 130px;
+        margin-left: 70px;
+    }
+    .surname{
+        font-size: 42px;
+        margin-top: -15px;
+        margin-left: 110px;
+    }
+    .full-stack-developer {
+        font-size: 27px;
+        margin-left:45px;
+    }
+    .icon-cv{
+        width:38px;
+        height: 38px;
+        margin-left:1320px;
+        margin-top:-450px;
+    }
+    .icon-instagram{
+        width:38px;
+        height: 38px;
+        margin-left:1320px;
+        margin-top:-380px;
+    }
+    .icon-in{
+        width:38px;
+        height: 38px;
+        margin-left:1320px;
+        margin-top:-310px;
+    }
+    .container-fluid-1{
+        width: 1400px;
+        height:620px;
+    }
+    .container-fluid-2{
+        width: 1400px;
+        height: 750px;
+    }
+    .container-fluid-3{
+        width:1400px;
+        height: 100px;
+    }
+    .Aboutme-1{
+        font-size: 30px;
+        margin-left: 610px;
+    }
+    .aboutmeimage-1{
+        width: 150px;
+        height: 300px;
+        margin-left: 510px;
+    }
+    .button{
+        display:inline-block;
+        position:absolute;
+        top:1350px;
+        right: 410px;
+        padding:0.5em 1.7em;
+        border:0.25em solid #f83737ce;
+        margin:0.1em 0.2em;
+        border-radius:0.35em;
+        box-sizing: border-box;
+        font-size:20px;
+        font-weight: bold;
+        font-weight:500;
+        text-align:center;
+        transition: 0.2s;
+        background:transparent;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+    .button2{
+        display: inline-block;
+        position: absolute;
+        top:1350px;
+        right: 780px;
+        padding:0.5em 1.7em;
+        border:0.25em solid #385fccbb;
+        margin:0.1em 0.2em;
+        border-radius:0.35em;
+        box-sizing: border-box;
+        font-size:20px;
+        font-weight: bold;
+        font-weight:500;
+        text-align:center;
+        transition: 0.2s;
+        background:transparent;
+        cursor:pointer;
+        text-transform: uppercase;
+    }
+    .container-fluid-4{
+        width: 1400px;
+        height:3900px;
+    }
+    .Aboutme {
+        font-size:40px;
+        margin-left: 550px;
+        margin-right: 350px;
+    }
+    .aboutmecontent {
+        font-size: 25px;
+        margin-left: 400px;
+        margin-right: 300px;
+    }
+    .rockets{
+        height:40px;
+        width:40px;
+    }
+    .passion{
+        font-size: 30px;
+        margin-left: 590px;
+        margin-top: -60px;
+    }
+    .hr-1{
+        margin-left: 500px;
+        margin-right:530px;
+    }
+    .icon-2{
+        margin-left: 520px;
+        margin-top:-20px;
+        width: 80px;
+        height: 80px;
+    }
+    .icon-3{
+        margin-left: 140px;
+        margin-top:-20px;
+        width: 75px;
+        height: 75px;
+    }
+    .writing{
+        font-size:32px;
+        margin-left: 60px;
+        margin-top:180px;
+    }
+    .hr-2{
+        margin-left: 60px;
+        margin-right:60px;
+    }
+    .Entropia{
+        width:360px;
+        height:460px;
+        margin-top:50px;
+        margin-left: 60px;
+    }
+    h5{
+        font-size: 24px;;
+        margin-top:-350px;
+        margin-left:600px;
+    }
+    .caption1{
+        font-size:22px;
+        margin-left: 600px;
+    }
+    .Angeliperduti{
+        width:360px;
+        height:460px;
+        margin-top:380px;
+        margin-left: 810px;
+    }
+    .title2{
+        font-size: 24px;
+        margin-left:110px;
+        margin-top:-350px;
+    }
+    .caption2{
+        font-size:22px;
+        margin-left: 110px; 
+        margin-top:-10px;
+    }
+    .cinema{
+        font-size:32px;
+        margin-left: 60px;
+        margin-top: 340px;
+    }
+    .hr-3{
+        margin-left: 60px;
+        margin-right:60px
+    }
+    .caption3{
+        font-size: 24px;;
+        margin-top:-350px;
+        margin-left:600px;
+    }
+    .hr-4{
+        margin-left:600px;
+        margin-right:350px;
+    }
+    .thin-red-line{
+        font-size:20px;
+        margin-left:885px;
+        margin-top:-10px;
+    }
+    .caption4{
+        font-size: 24px;;
+        margin-top:-350px;
+        margin-left:60px;
+    }
+    .Fellini{
+        font-size: 20px;;
+        margin-top:-10px;
+        margin-left:640px;
+    }
+    .footer{
+        width:1400px;
+        height:300px;
+    }
+    .icon-cv-3{
+        height:75px;
+        width:75px;
+        margin-left:495px;
+        margin-top:-300px;
+    }
+    .icon-instagram-3{
+        height:75px;
+        width:75px;
+        margin-left:50px;
+        margin-top:-300px;
+    }
+    .icon-linkedin-3{
+        height:75px;
+        width:75px;
+        margin-left:50px;
+        margin-top:-300px;
+    }
+    .container-fluid-5 {
+        width: 1400px;
+        height:1000px;
+    }
+    .Skills {
+        font-size: 35px;
+        margin-left:490px;
+    }
+    .icon-cv-2{
+        height:75px;
+        width:75px;
+        margin-left:520px;
+        margin-top:30px;
+    }
+    .icon-instagram-2{
+        height:75px;
+        width:75px;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    .icon-linkedin-2{
+        height:75px;
+        width:75px;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    .contact{
+        font-size: 30px;
+        margin-left:620px;
+        margin-top:70px;
+    }
+    .hr-5{
+        margin-left: 500px;
+        margin-right:500px;
+        margin-top:10px;
+    }
+    form{
+        margin-left:590px;
+        margin-top:30px;
+        height:360px;
+    }
+    input{
+        width:200px;
+        height:80px;
+        border: 2px solid rgba(162, 0, 255, 0.76);
+        border-radius:20px;
+    }
+    button{
+        width:70px;
+        height:35px;
+        border: 1px solid rgba(162, 0, 255, 0.76);
+    }
+    .background{
+        width:1400px;
+        height:660px;
+    }
+    .outro{
+        font-size: 24px;
+        margin-left:260px;
+        margin-top:-100px;
+    }
+    .container-fluid-6{
+        width:1400px;
+        height:2800px;
+    }
+    .container-cv{
+        width:955px;
+        height:328px;
+        margin-top:-403px;
+        margin-left:-153px;
+        border-radius: 150px;
+        border:2px solid white
+    }
+    .photo-cv{
+        width:300px;
+        height:420px;
+        margin-left:500px;
+        margin-top:30px;
+    }
+    h4{
+        font-size:30px;
+        margin-left:100px;
+        margin-top: 100px;
+    }
+    .hr-cv{
+        margin-left:60px;
+        margin-right:60px;
+    }
+    .info-cv{
+        font-size:23px;
+        margin-left:100px;
+        margin-right:100px;
+        margin-top:20px;
+    }
+    .footer-cv{
+        width:96px;
+        height:96px;
+        margin-top:240px;
+        margin-left:630px;
+    }
+}   
