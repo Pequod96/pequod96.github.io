@@ -1,0 +1,104 @@
+@font-face {
+  font-family:static;
+  src: url(/assets/font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link{
+  color:rgb(255, 240, 221);
+  text-decoration: none;
+}
+
+a:visited{
+  color:rgb(255, 240, 221);
+  text-decoration: none;
+}
+
+a:hover{
+  color:rgb(255, 240, 221);
+  text-decoration:underline;
+}
+
+body{
+  background-color: black;
+  text-align: center;
+
+}
+
+.bull{
+  display:inline-block;
+  width:30px;
+  margin-top:2rem;
+}
+
+.intro{
+  display: flex;
+  justify-content: center;
+  font-size:19px;
+  font-family: static;
+  color:rgb(255, 240, 221);
+  letter-spacing: 2px;
+}
+
+.hr-1{
+  margin-right:590px;
+  margin-left:590px;
+  border-color:rgba(255, 228, 196, 0.5);
+  opacity: 0.5;
+}
+
+.front-end{
+  font-size:12px;
+  font-family: static;
+  display: flex;
+  justify-content: center;
+  color:rgb(255, 240, 221);
+  padding:3px;
+}
+
+.hr-2{
+  margin-right:590px;
+  margin-left:590px;
+  border-color:rgba(255, 228, 196, 0.5);
+  opacity: 0.5;
+}
+
+.black-container{
+  margin-top:3rem;
+  margin-left:18rem;
+  width:60%;
+  font-size:19px;
+  font-family: static;
+  color:rgb(255, 240, 221);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.my-image{
+  display: inline-block;
+  margin-top:2rem;
+  width:650px;
+  height:450px;
+  opacity: 0.5;
+}
+
+.footer-container{
+  height:70px;
+}
+
+.footer{
+  margin-top:9rem;
+  color:rgb(255, 240, 221);
+  font-size:12px;
+  font-family: static;
+  display:flex;
+  justify-content: center;
+  letter-spacing: 2px;
+}
